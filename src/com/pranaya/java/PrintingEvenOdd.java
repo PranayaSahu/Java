@@ -37,6 +37,7 @@ public class PrintingEvenOdd {
 		Thread t1 = new Thread(() -> {
 			q.print("t1");
 		});
+		
 		Thread t2 = new Thread(() -> {
 			q.print("t2");
 		});
